@@ -541,7 +541,7 @@ bool ServerModMetadata::hasUpdateForInstalledMod() const {
 }
 
 std::string server::getServerAPIBaseURL() {
-    return "https://api.geode-sdk.org/v1";
+    return "https://supreme-space-xylophone-4x6w4x5qqxrfqqrv-3000.app.github.dev/v1";
 }
 
 template <class... Args>

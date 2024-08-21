@@ -129,7 +129,7 @@ protected:
     }
 
     void makeRequest() {
-        auto task = web::WebRequest().get("https://api.geode-sdk.org/");
+        auto task = web::WebRequest().get("https://supreme-space-xylophone-4x6w4x5qqxrfqqrv-3000.app.github.dev/");
         m_rawListener.setFilter(task);
         m_strListener.setFilter(task.map(
             [](auto* result) {
